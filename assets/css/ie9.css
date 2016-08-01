@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.left-content, .right-content {
+     top: 10%;
+     transform: translateY(0%);
+}
+.right-content form {
+	margin-bottom: 28px;
+}
+.thumb-hover {
+	display: none;
+}
+.left-content .thumbnail-block:hover .thumb-hover {
+	display: block;
+}
+.left-content i {
+	margin-bottom: 40px;
+}
+

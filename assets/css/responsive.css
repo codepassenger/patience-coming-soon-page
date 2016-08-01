@@ -1,0 +1,119 @@
+/* 
+=======================================================================
+--------------------TO MAKE RESPONSIVE----------------------------------
+---------------------------------------------------------------------- /
+
+---------------------------------------------------------------------- */
+
+@media screen and (min-width: 1400px) and (max-width: 2000px) {
+	.thumb-hover {
+		left: 20px;
+		width: 80%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+  .thumb-hover h5, .thumb-hover span {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+  .thumb-hover {
+    padding: 15px 0;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .content,
+  .content .row,
+  .content .row .left-block,
+  .content .row .right-block
+  {
+    height: 100%;
+  }
+  .left-content, .right-content {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+       -moz-transform: translateY(-50%);
+        -ms-transform: translateY(0%);
+         -o-transform: translateY(0%);
+            transform: translateY(-50%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+	body, html {
+		height:auto;
+	}
+  .left-block, .right-block {
+    overflow: hidden;
+  }
+  .right-content, .left-content {
+    margin-top: 40px;
+  }
+  h1 {
+	  margin-bottom: 30px;
+  }
+  .left-content {
+	  padding-bottom: 40px;
+  }
+  .right-content .col-sm-6:first-child .form-control {
+    margin-bottom: 15px;
+  }
+  .menu.m-control a {
+	  border-radius:0;
+	  border:none;
+	  background:none;
+  }
+  .left-content .thumbnail-block {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 28px;
+  }
+  .right-content {
+	  padding: 0;
+  }
+  .right-content h2 {
+    margin-bottom: 30px;
+  }
+  .right-content .para {
+    margin-bottom: 40px;
+  }
+  .right-content form {
+    margin-bottom: 50px;
+  }
+  .right-content .form-control {
+    line-height: 1;
+  }
+  .dl-horizontal br {
+	  display: none;
+  }
+  .form-control::-moz-placeholder {
+    font-size: 10px;
+    line-height: 2;
+  }
+.form-control:-ms-input-placeholder {
+    font-size: 10px;
+    line-height: 2;
+  }
+.form-control::-webkit-input-placeholder {
+    font-size: 10px;
+    line-height: 2;
+  }
+  .left-content h1 {
+    margin-bottom:20px;
+  }
+  .timing {
+    margin-top: 22px;
+  }
+  .social-icon li {
+    font-size: 30px;
+  }
+}
